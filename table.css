@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Cairo", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+
+}
+
+header {
+    display: flex;
+    height: 40px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgray;
+    margin-bottom: 15px;
+
+}
+
+#header01 {
+    display: flex;
+    margin: 10px;
+    margin-left: 100px;
+    font-size: 15px;
+
+}
+
+.header02-left {
+    margin-left: 25px;
+}
+
+.header-icon01 {
+    height: 15px;
+    vertical-align: bottom;
+
+}
+
+svg {
+    height: 15px;
+}
+
+button {
+    width: 50px;
+}
+
+#ajustes {
+    display: flex;
+
+}
+
+.advice {
+    padding-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+main {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#simpleUP-main {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-family: "Cairo", sans-serif;
+
+
+
+
+
+}
+
+#simpleRIGHT-main {
+    display: flex;
+    gap: 12px;
+
+}
+
+.SPACEON-main {
+    margin-right: 25px;
+}
+
+.simpleRIGHT-main {
+    margin-top: 15px;
+
+
+
+}
+
+#grid01{
+    display: grid;
+    grid-template-columns: 17% 22% 22% 22% 17%;
+    grid-template-rows: 100% 20% 20% 20% 20%;   
+}
+
+#grid01 div{
+    border: solid 1px black;
+}
+
+#gridBIG{
+    height: 1000px;
+    background-color: aqua;
+}
+#grid01 button {
+    background-color: green;
+    cursor: pointer;
+}
+#drop_menu {
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+    background-color: green;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .opcaomenu
+  {
+    background-color: white;
+    font-size: 20px;
+    width: 100%;
+    height: 100px;
+  }
